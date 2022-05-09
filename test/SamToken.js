@@ -8,6 +8,9 @@ contract('SamToken',function(accounts){
             return tokenInstance.totalSupply();
         }).then(function(totalSupply){
             assert.equal(totalSupply.toNumber(),100000000,'sets the total supply to 10,00,00,000')
-        })
+            return tokenInstance.balanceOf(accounts[0]);
+        }).then(function(adminBalance){
+            assert.equal(adminBalance.toNumber(),100000000,'sets the total supply to 10,00,00,000')
+        });
     });
-})
+});
