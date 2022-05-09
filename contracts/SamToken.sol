@@ -8,7 +8,7 @@ contract SamToken {
     uint256 public totalSupply= 100000000;
     
     function samToken() public {
-        totalSupply =100;
+        totalSupply =100;     /// the value is not taken from here
     
     }
 }

@@ -23,9 +23,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"samToken\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SamToken.sol\":\"SamToken\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SamToken.sol\":{\"keccak256\":\"0xeed4f9196fdc3b7425d66e3deca5fae4a1e6241da33f61f395789afb106707c9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3979cd01791dfb3bb7d7bb142dcdd2129b55d1cda6a2624924196d8d80e22202\",\"dweb:/ipfs/QmNtDSAoKkeRoyBfLN5QU5tFuovwEcidkXnjzF9PXUV5VC\"]}},\"version\":1}",
-  "bytecode": "0x60806040526305f5e10060005534801561001857600080fd5b5060cf806100276000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806318160ddd1460375780638138d299146051575b600080fd5b603d6059565b604051604891906080565b60405180910390f35b6057605f565b005b60005481565b6064600081905550565b6000819050919050565b607a816069565b82525050565b6000602082019050609360008301846073565b9291505056fea2646970667358221220e9926ea2e602f530e3d412c12a514b78da7a93f783a8e8488fc0e7d1a153b46c64736f6c634300080b0033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806318160ddd1460375780638138d299146051575b600080fd5b603d6059565b604051604891906080565b60405180910390f35b6057605f565b005b60005481565b6064600081905550565b6000819050919050565b607a816069565b82525050565b6000602082019050609360008301846073565b9291505056fea2646970667358221220e9926ea2e602f530e3d412c12a514b78da7a93f783a8e8488fc0e7d1a153b46c64736f6c634300080b0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"samToken\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SamToken.sol\":\"SamToken\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SamToken.sol\":{\"keccak256\":\"0xf9d64447da59dcb078d0d192facee5d9f728a879c8d4fa3f6bb253f980522318\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0b8e90ce114c637b61b49288397f91774cf61f80164603b28261f68550e8d96e\",\"dweb:/ipfs/QmWYRjrfCRmecrDakgYMBnA4yW1btQhfLvJsfTGAVUcXcm\"]}},\"version\":1}",
+  "bytecode": "0x60806040526305f5e10060005534801561001857600080fd5b5060cf806100276000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806318160ddd1460375780638138d299146051575b600080fd5b603d6059565b604051604891906080565b60405180910390f35b6057605f565b005b60005481565b6064600081905550565b6000819050919050565b607a816069565b82525050565b6000602082019050609360008301846073565b9291505056fea264697066735822122028aac33c6d720f5a4f940438cd674498b00172938c122228a43c2772a585a35464736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806318160ddd1460375780638138d299146051575b600080fd5b603d6059565b604051604891906080565b60405180910390f35b6057605f565b005b60005481565b6064600081905550565b6000819050919050565b607a816069565b82525050565b6000602082019050609360008301846073565b9291505056fea264697066735822122028aac33c6d720f5a4f940438cd674498b00172938c122228a43c2772a585a35464736f6c634300080b0033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -256,9 +256,9 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "69:242:1:-:0;;;218:9;190:37;;69:242;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "69:242:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;190:37;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;240:68;;;:::i;:::-;;190:37;;;;:::o;240:68::-;291:3;278:11;:16;;;;240:68::o;7:77:2:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o",
-  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract SamToken {\r\n    //constructor\r\n    //set the token number of tokens\r\n    //read the total number of tokens\r\n    uint256 public totalSupply= 100000000;\r\n    \r\n    function samToken() public {\r\n        totalSupply =100;\r\n    \r\n    }\r\n}\r\n",
+  "sourceMap": "69:283:1:-:0;;;218:9;190:37;;69:283;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "69:283:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;190:37;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;240:109;;;:::i;:::-;;190:37;;;;:::o;240:109::-;291:3;278:11;:16;;;;240:109::o;7:77:2:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract SamToken {\r\n    //constructor\r\n    //set the token number of tokens\r\n    //read the total number of tokens\r\n    uint256 public totalSupply= 100000000;\r\n    \r\n    function samToken() public {\r\n        totalSupply =100;     /// the value is not taken from here\r\n    \r\n    }\r\n}\r\n",
   "sourcePath": "C:\\Users\\user\\web3war\\erc20\\contracts\\SamToken.sol",
   "ast": {
     "absolutePath": "project:/contracts/SamToken.sol",
@@ -348,7 +348,7 @@
             "body": {
               "id": 44,
               "nodeType": "Block",
-              "src": "267:41:1",
+              "src": "267:82:1",
               "statements": [
                 {
                   "expression": {
@@ -420,18 +420,18 @@
               "src": "267:0:1"
             },
             "scope": 46,
-            "src": "240:68:1",
+            "src": "240:109:1",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
         "scope": 47,
-        "src": "69:242:1",
+        "src": "69:283:1",
         "usedErrors": []
       }
     ],
-    "src": "33:280:1"
+    "src": "33:321:1"
   },
   "legacyAST": {
     "absolutePath": "project:/contracts/SamToken.sol",
@@ -521,7 +521,7 @@
             "body": {
               "id": 44,
               "nodeType": "Block",
-              "src": "267:41:1",
+              "src": "267:82:1",
               "statements": [
                 {
                   "expression": {
@@ -593,18 +593,18 @@
               "src": "267:0:1"
             },
             "scope": 46,
-            "src": "240:68:1",
+            "src": "240:109:1",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
         "scope": 47,
-        "src": "69:242:1",
+        "src": "69:283:1",
         "usedErrors": []
       }
     ],
-    "src": "33:280:1"
+    "src": "33:321:1"
   },
   "compiler": {
     "name": "solc",
@@ -614,12 +614,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x2C4C6af02AcB24D8A38F4540fd8592A0e86D780c",
-      "transactionHash": "0x7233faadbba77fb99ce75933c95aa46e1d1af87a0c1021bba0849860c2397d1c"
+      "address": "0x22dfF66F3758f84FaaD900F76E6F17a6A17c10DB",
+      "transactionHash": "0xfd5b1dd1946f48afeea6febd3c52156c5d937ad8f9b8a077cdca607a7c890adf"
     }
   },
   "schemaVersion": "3.4.5",
-  "updatedAt": "2022-05-09T15:00:27.596Z",
+  "updatedAt": "2022-05-09T15:54:45.638Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
